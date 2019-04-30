@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Tina Belcher",
+    "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/6/6e/Tina_render.png/revision/latest?cb=20130113192209"
+  },
+  {
+    "id": 2,
+    "name": "Louise Belcher",
+    "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/b9/Louise_render.png/revision/latest/scale-to-width-down/200?cb=20130113075349"
+  },
+  {
+    "id": 3,
+    "name": "Bob Belcher",
+    "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/3/3e/Bobbelcher2.png/revision/latest/scale-to-width-down/200?cb=20130114075133"
+  },
+  {
+    "id": 4,
+    "name": "Linda Belcher",
+    "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/b7/Lindab.png/revision/latest/scale-to-width-down/200?cb=20130113071354"
+  },
+  {
+    "id": 5,
+    "name": "Eugene 'Gene' Belcher",
+    "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/b/b7/Gene_Belcher.png/revision/latest/scale-to-width-down/250?cb=20130114043308"
+  },
+  {
+    "id": 6,
+    "name": "Clem Clements",
+    "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/3/3d/Clem.png/revision/latest/scale-to-width-down/180?cb=20190408015754"
+  },
+  {
+    "id": 7,
+    "name": "Al the alpaca",
+    "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/9/9f/Alpaca.png/revision/latest/scale-to-width-down/150?cb=20171024111841"
+  },
+  {
+    "id": 8,
+    "name": "Theodore 'Teddy'",
+    "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/5/5e/Teddy.png/revision/latest/scale-to-width-down/150?cb=20130305230745"
+  },
+  {
+    "id": 9,
+    "name": "Calvin Fischoeder",
+    "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/7/7e/Mr._Fischoeder.png/revision/latest/scale-to-width-down/200?cb=20130305161036"
+  },
+  {
+    "id": 10,
+    "name": "Phillip Frond",
+    "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/1/1d/Phillip_Frond.png/revision/latest/scale-to-width-down/150?cb=20150920220653"
+  },
+  {
+    "id": 11,
+    "name": "Jimmy Pesto",
+    "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/3/32/Jimmy_Pesto.png/revision/latest/scale-to-width-down/200?cb=20130305162049"
+  },
+  {
+    "id": 12,
+    "name": "Kuchi Kopi",
+    "image": "https://vignette.wikia.nocookie.net/bobsburgerpedia/images/c/ce/Kuchi.png/revision/latest/scale-to-width-down/250?cb=20160929123954"
+  }
+]
