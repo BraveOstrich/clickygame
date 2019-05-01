@@ -1,27 +1,71 @@
 import React, { Component } from "react";
-import FriendCard from "./components/CharacterCard";
+import CharacterCard from "./components/CharacterCard";
 import Wrapper from "./components/Wrapper";
-import Title from "./components/Title";
+//import Title from "./components/Title";
+import Navbar from "./components/Nav";
 import friends from "./friends.json";
 
+
+function randomFriends(array) {
+  for (let i = array.length - 1; i > 0; i--) {
+    let j = Math.floor(Math.random() * (i + 1));
+    [array[i], array[j]] = [array[j], array[i]];
+  }
+  return array;
+};
+
+
 class App extends Component {
+
   state = {
-    friends
+    friends,
+    score: 0,
+    clicked: [],
   };
 
-  
+  handleClick = id => {
+    if (this.state.clicked.indexOf(id) === -1) {
+      this.handleIncrement();
+      this.setState({ clicked: this.state.clicked.concat(id) });
+    } else {
+      this.handleReset();
+    }
+  };
 
-  render() {
+  handleIncrement = () => {
+    const newScore = this.state.score + 1;
+    console.log(this)
+    this.setState({
+      score: newScore
+    });
+    this.handleShuffle();
+  };
+
+  handleReset = () => {
+    this.setState({
+      clicked: []
+    });
+    this.handleShuffle();
+  };
+
+  handleShuffle = () => {
+    let shuffledFriends = randomFriends(friends);
+    this.setState({ friends: shuffledFriends });
+  };
+
+
+  render(){
     return (
-      <Wrapper>
-        <div className="navbar">
-        <Title>Clicky Game!</Title>
-        </div>
+      <Wrapper className="wrapper">
+        <Navbar />
         {this.state.friends.map(friend => (
-          <FriendCard
+          <CharacterCard
             id={friend.id}
+            handleClick={this.handleClick}
+            handleIncrement={this.handleIncrement}
+            handleReset={this.handleReset}
+            handleShuffle={this.handleShuffle}
             key={friend.id}
-            name={friend.name}
             image={friend.image}
           />
         ))}
